@@ -1,0 +1,99 @@
+#!/bin/bash
+
+# Adding Dir's
+
+mkdir ~/Pictures/Wallpapers
+
+mkdir ~/.config/i3/
+
+mkdir ~/.config/i3status/
+
+
+# Installing cowsaw / fortune
+
+sudo apt install cowsaw -y
+
+sudo apt install fortune -y
+
+# Install youtube-dl
+
+sudo apt install youtube-dl -y
+
+# Installing dmenu
+
+sudo apt install dmenu -y
+
+# Installing pywal
+
+sudo apt install python3 -y
+
+sudo apt install imagemagick -y
+
+sudo apt install procps -y
+
+sudo apt install feh -y
+
+sudo pip3 install pywal -y
+
+# Install Xclip
+
+sudo apt install xclip -y
+
+# Installing mpv
+
+sudo apt install mpv -y
+
+# Installing xargs
+
+sudo apt install findutils -y
+
+# Installing surg
+
+sudo apt install surf -y
+
+# Installing kitty
+
+sudo apt install kitty -y
+
+# Installing git
+
+sudo apt install git -y
+
+# Installing i3
+
+sudo apt install i3 -y
+
+mkdir ~/gits/
+
+git clone http://165.227.0.153:3000/Faveing/dotfilesv2.git
+
+<<<<<<< HEAD
+cp ~/gits/dotfilesv2/i3/config ~/.config/i3/
+=======
+mkdir ~/.config/i3/
+
+cp ~/gits/dotfiles/i3/config ~/.config/i3/
+>>>>>>> 0fcddacfae47f61571f987bdde0662b4e13af8f7
+
+# Installing newsboat
+
+sudo apt install newsboat
+
+<<<<<<< HEAD
+cp ~/gits/dotfilesv2/newsboat/urls ~/.newsboat/urls
+=======
+mkdir ~/.newsboat
+
+cp ~/gits/dotfiles/newsboat/urls ~/.newsboat/urls
+>>>>>>> 0fcddacfae47f61571f987bdde0662b4e13af8f7
+
+# Installing zathura
+
+sudo apt install zathura
+
+# Setting up nano config
+
+cp nano/nanorc ~/
+
+
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. "${HOME}/.cache/wal/colors.sh"
+
+man -k . | dmenu -b -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15" -l 30 | awk '{print $1}' | xargs -r man -Tpdf | zathura -

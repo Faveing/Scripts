@@ -1,0 +1,3 @@
+#!/bin/bash
+
+xclip -selection c -o | xargs -r youtube-dl -f 249 -o - | mpv -
