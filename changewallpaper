@@ -2,4 +2,4 @@
 
 . "${HOME}/.cache/wal/colors.sh"
 
-tree -f -i ~/Pictures/Wallpapers | dmenu -b -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15" -l 30 | xargs -r wal -i 
+tree -f -i ~/Pictures/wallpapers | dmenu -b -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15" -l 30 | xargs -r wal -i 
